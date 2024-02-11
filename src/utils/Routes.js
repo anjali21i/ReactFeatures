@@ -1,7 +1,9 @@
+export const BASE = "/";
 export const contextPath = "/dashboard";
 
 export const ROUTES = {
-    DASHBOARD: contextPath.concat("/"),
+    BASE: BASE,
+    DASHBOARD: contextPath.concat(BASE),
     HOME: contextPath.concat("/home"),
     ABOUT: contextPath.concat("/about")
 }

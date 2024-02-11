@@ -7,6 +7,7 @@ const NavBar = () => {
     console.log([ROUTES.ABOUT]);
     return (
         <>
+            <NavLink to={ROUTES.BASE}>Log In/ Sign Up </NavLink>
             <NavLink to={ROUTES.DASHBOARD}>Dashboard </NavLink>
             <NavLink to={ROUTES.HOME} className={({isActive}) => isActive ? "active" : ""}>Home </NavLink>
             <Link to={ROUTES.ABOUT}>About </Link>

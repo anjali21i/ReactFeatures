@@ -1,12 +1,12 @@
-const numbArray = [2, 5, 6, 2, 4];
-const studentArray = ["ritu", "geeta", "priya", "vishu"];
+export const numbArray = [2, 5, 6, 2, 4];
+export const studentArray = ["ritu", "geeta", "priya", "vishu"];
 
-const userRecArray2 = [
+export const userRecArray2 = [
   ["Sandra Schaefer", "Bethany12@yahoo.com", "dipti"],
   ["Mark Veum", "Jedediah.Beer26@yahoo.com"],
 ];
 
-const userRecordArray = [
+export const userRecordArray = [
   {
     name: "Sandra Schaefer",
     email: "Bethany12@yahoo.com",
@@ -37,7 +37,7 @@ const userRecordArray = [
   },
 ];
 
-var userRecArray = [
+export const userRecArray = [
   {
     id: 1,
     name: "Sandra Schaefer",
@@ -70,7 +70,7 @@ var userRecArray = [
 
 console.log(userRecArray);
 
-let users = {
+export let users = {
   1: {
     id: "1",
     firstName: "Robin",
@@ -85,6 +85,6 @@ let users = {
   },
 };
 
-let usersArr = [users];
+export let usersArr = [users];
 
 //operation over array
