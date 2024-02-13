@@ -6,6 +6,21 @@ export const userRecArray2 = [
   ["Mark Veum", "Jedediah.Beer26@yahoo.com"],
 ];
 
+export const userRecordArray2 = [
+  {
+    "name": "Sandra Schaefer",
+    "email": "Bethany12@yahoo.com"
+  },
+  {
+    "name": "Mark Veum",
+    "email": "Jedediah.Beer26@yahoo.com"
+  },
+  {
+    "name": "Ritu Schaefer",
+    "email": "Ritu56@yahoo.com"
+  },
+];
+
 export const userRecordArray = [
   {
     name: "Sandra Schaefer",
