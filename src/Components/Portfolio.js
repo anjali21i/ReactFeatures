@@ -1,6 +1,7 @@
 import React from 'react'
+import "../styles/portfoliostyle.scss";
 
-const portfolio = () => {
+const Portfolio = () => {
 
     return (
         <div>
@@ -20,7 +21,7 @@ const portfolio = () => {
                 </nav>
                 <div id="parallax">
                     <div className="container">
-                        <div className="row" style="height:800px;">
+                        <div className="row">
                             <div className="col-12 d-flex align-items-center">
                                 <div className="text-center w-100">
                                     <div className="tt mb-4"> <img src="img/main-profile.jpg" /> </div>
@@ -243,4 +244,4 @@ const portfolio = () => {
     )
 }
 
-export default portfolio;
+export default Portfolio;
