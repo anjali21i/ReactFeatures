@@ -1,0 +1,33 @@
+$background-color_1: cadetblue;
+$background-color_2: grey;
+
+.wrap_container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 2px;
+	grid-row-gap: 0px;
+    &_wrap {
+        background-color: $background-color_2;
+    }
+    .wrap_left {
+        grid-area: 1/1/2/2;
+    }
+    .wrap_right {
+        grid-area: 1/2/2/3;
+    }
+}
+
+.wrap_nav {
+    width: 100%;
+    font-size: 14px;
+    margin: 12px;
+    padding: 12px;
+    background-color: $background-color_1;
+    ._nav {
+        font-display: block;
+        font-size: 18px;
+        margin: 10px;
+
+    }
+}

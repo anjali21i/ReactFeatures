@@ -4,6 +4,7 @@ import {
   Routes
 } from "react-router-dom";
 
+import "./styles/basicstyle.scss";
 import "./styles.css";
 import Dashboard from "./Components/Dashboard.js";
 import Home from "./Components/Home.js";
