@@ -12,6 +12,7 @@ import About from "./Components/About.js";
 import { ROUTES } from "./utils/Routes.js";
 import NavBar from "./Components/NavBar.js";
 import LogInPage from "./Components/LogInPage.js";
+// import ContextTest from "./Components/ContextTest.js";
 
 export default function App() {
   return (
@@ -20,13 +21,15 @@ export default function App() {
         <NavBar />
         <Routes>
           {/* <Route element={<Dashboard />}> */}
-            <Route path={ROUTES.BASE} element={<LogInPage />} />
+
+            {/* <Route path={ROUTES.BASE} element={<LogInPage />} /> */}
             <Route path={ROUTES.DASHBOARD} element={<Dashboard />} />
             <Route path={ROUTES.HOME} element={<Home />} />
             <Route path={ROUTES.ABOUT} element={<About />} />
           {/* </Route> */}
         </Routes>
       </BrowserRouter>
+      {/* <ContextTest /> */}
     </div>
   );
 }

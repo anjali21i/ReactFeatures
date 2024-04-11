@@ -9,7 +9,7 @@ const Home = props => {
         {/* <Portfolio /> */}
       </div>
       <div className='wrap_right'>
-        i am right
+        i am right {props.email}
       </div>
     </div>
   )
